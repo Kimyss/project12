@@ -1,6 +1,6 @@
 package map;
 /*
- * String형 key, int형 value 가지는 HashMap 객체 생성 
+ * String형 key, int형 value 가지는 HashMap 객체 생성  
  * 데이터 3개 추가
  * {"국어",80}, {"수학", 90}, {"영어", 100}
  * 국어 50 수학 60 영어 70 으로 수정
