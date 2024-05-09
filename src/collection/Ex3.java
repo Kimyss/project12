@@ -23,14 +23,14 @@ public class Ex3 {
 		
 		while(ir.hasNext()) {	//다음 요소가 있으면
 			String member = ir.next();	//다음요소를 가져옴
-			System.out.println(member + " ");
+			System.out.println(member + "**");
 			
-//			if(ir.hasNext() == true) {
-//				String member = ir.next();	//다음요소를 가져옴
-//				System.out.println(member + " ");
-//			}else {
-//				break;  //브레이크 없으면 영원히 돕니다.
-//			}
+			if(ir.hasNext() == true) {
+				String members = ir.next();	//다음요소를 가져옴
+				System.out.println(members + "*");
+			}else {
+				break;  //브레이크 없으면 영원히 돕니다.
+			}
 			
 		}
 		
