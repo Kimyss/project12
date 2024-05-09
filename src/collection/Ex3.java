@@ -29,7 +29,7 @@ public class Ex3 {
 				String members = ir.next();	//다음요소를 가져옴
 				System.out.println(members + "*");
 			}else {
-				break;  //브레이크 없으면 영원히 돕니다
+				break;  //브레이크 없으면 영원히 돕니다.
 			}
 			
 		}
